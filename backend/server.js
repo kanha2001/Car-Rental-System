@@ -1,5 +1,7 @@
 const app = require("./app");
 const dotenv = require("dotenv");
+const express = require("express");
+// const app = express();
 const cloudinary = require("cloudinary");
 const connectDatabase = require("./config/database");
 const path = require("path");
@@ -23,12 +25,12 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-// //Static files
-// app.use(express.static(path.join(__dirname, "../frontend/build")));
+//Static files
+app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-// app.get("*", function (req, res) {
-//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
-// });
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
+});
 
 //port
 const server = app.listen(process.env.PORT, () => {
