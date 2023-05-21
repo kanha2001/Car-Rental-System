@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77cedcaa.css",
+    "main.js": "/static/js/main.4e052c47.js",
+    "static/media/venue.jpg": "/static/media/venue.b8d4a921496b59303185.jpg",
+    "static/media/creta.jpg": "/static/media/creta.1c04d40dca7941cab8d6.jpg",
+    "static/media/ertiga.jpg": "/static/media/ertiga.cac9080ed651537b2947.jpg",
+    "static/media/baleno.jpg": "/static/media/baleno.e6003a0130285853d0f3.jpg",
+    "static/media/Fortuner.jpg": "/static/media/Fortuner.eee572d23a45460102d1.jpg",
+    "static/media/XUV700.jpg": "/static/media/XUV700.de727055859b95c8ee98.jpg",
+    "static/media/harrier.jpg": "/static/media/harrier.edc5725cab6a16362979.jpg",
+    "static/media/car1.png.jpeg": "/static/media/car1.png.3807bb76b5e6fae77d7c.jpeg",
+    "static/media/jeep.png": "/static/media/jeep.38ae1745b9768495b50d.png",
+    "static/media/thar.png": "/static/media/thar.8e9a665f716162f46b49.png",
+    "index.html": "/index.html",
+    "main.77cedcaa.css.map": "/static/css/main.77cedcaa.css.map",
+    "main.4e052c47.js.map": "/static/js/main.4e052c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77cedcaa.css",
+    "static/js/main.4e052c47.js"
+  ]
+}
