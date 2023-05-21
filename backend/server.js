@@ -2,7 +2,7 @@ const app = require("./app");
 const dotenv = require("dotenv");
 const cloudinary = require("cloudinary");
 const connectDatabase = require("./config/database");
-// const path = require("path");
+const path = require("path");
 
 //Handling Uncaught Exception
 process.on("uncaughtException", (err) => {
@@ -24,10 +24,10 @@ cloudinary.config({
 });
 
 // //Static files
-// app.use(express.static(path.join(__dirname, "./frontend/build")));
+// app.use(express.static(path.join(__dirname, "../frontend/build")));
 
 // app.get("*", function (req, res) {
-//   res.sendFile(path.join(__dirname, "./frontend/build/index.html"));
+//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
 // });
 
 //port
