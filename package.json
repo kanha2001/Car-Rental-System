@@ -5,7 +5,7 @@
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
+    "start": "node C:/backup 2/car rental website/backend/server.js",
     "server": "nodemon backend/server.js",
     "frontend": "npm start --prefix ./frontend",
     "dev": "concurrently \"npm start\" \"npm run frontend\""
